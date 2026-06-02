@@ -1,0 +1,285 @@
+{
+    "metrics": {
+        "vm1": {
+            "cpu": 47,
+            "memory": 46,
+            "network": 132,
+            "tasks": 16
+        },
+        "vm2": {
+            "cpu": 33,
+            "memory": 41,
+            "network": 208,
+            "tasks": 9
+        },
+        "vm3": {
+            "cpu": 31,
+            "memory": 37,
+            "network": 133,
+            "tasks": 17
+        }
+    },
+    "active_vms": [
+        "vm1",
+        "vm2",
+        "vm3"
+    ],
+    "avg_load": 36.520626892646156,
+    "total_tasks": 3,
+    "successful_tasks": 3,
+    "sla_violations": 0,
+    "decision_log": [
+        {
+            "time": "09:06:10",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 30.9
+        },
+        {
+            "time": "09:06:25",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 30.97
+        },
+        {
+            "time": "09:06:40",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 31.03
+        },
+        {
+            "time": "09:06:56",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 31.1
+        },
+        {
+            "time": "09:07:15",
+            "selected_vm": "vm2",
+            "reward": -28.07,
+            "avg_predicted_load": 31.17
+        },
+        {
+            "time": "09:07:30",
+            "selected_vm": "vm2",
+            "reward": -28.07,
+            "avg_predicted_load": 31.23
+        },
+        {
+            "time": "09:07:46",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 31.3
+        },
+        {
+            "time": "09:08:01",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 31.37
+        },
+        {
+            "time": "09:08:16",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 31.43
+        },
+        {
+            "time": "09:08:31",
+            "selected_vm": "vm2",
+            "reward": -28.07,
+            "avg_predicted_load": 31.5
+        },
+        {
+            "time": "09:08:47",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 31.57
+        },
+        {
+            "time": "09:09:02",
+            "selected_vm": "vm2",
+            "reward": -28.07,
+            "avg_predicted_load": 31.63
+        },
+        {
+            "time": "09:09:18",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 31.7
+        },
+        {
+            "time": "09:09:33",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 31.77
+        },
+        {
+            "time": "09:09:48",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 31.83
+        },
+        {
+            "time": "09:10:04",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 31.9
+        },
+        {
+            "time": "09:10:28",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 38.94
+        },
+        {
+            "time": "09:14:50",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 36.96
+        },
+        {
+            "time": "09:15:08",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.94
+        },
+        {
+            "time": "09:15:25",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 36.96
+        },
+        {
+            "time": "09:15:43",
+            "selected_vm": "vm2",
+            "reward": -28.07,
+            "avg_predicted_load": 36.92
+        },
+        {
+            "time": "09:16:00",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.92
+        },
+        {
+            "time": "09:16:18",
+            "selected_vm": "vm2",
+            "reward": -28.07,
+            "avg_predicted_load": 36.93
+        },
+        {
+            "time": "09:16:35",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 36.89
+        },
+        {
+            "time": "09:16:51",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.89
+        },
+        {
+            "time": "09:17:08",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 36.88
+        },
+        {
+            "time": "09:17:25",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.84
+        },
+        {
+            "time": "09:17:42",
+            "selected_vm": "vm2",
+            "reward": -28.07,
+            "avg_predicted_load": 36.85
+        },
+        {
+            "time": "09:17:59",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.81
+        },
+        {
+            "time": "09:18:16",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.82
+        },
+        {
+            "time": "09:18:34",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 36.78
+        },
+        {
+            "time": "09:18:50",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.75
+        },
+        {
+            "time": "09:19:08",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.76
+        },
+        {
+            "time": "09:19:25",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 36.72
+        },
+        {
+            "time": "15:24:55",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.69
+        },
+        {
+            "time": "15:25:13",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 36.7
+        },
+        {
+            "time": "15:25:30",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.65
+        },
+        {
+            "time": "15:25:46",
+            "selected_vm": "vm3",
+            "reward": -28.27,
+            "avg_predicted_load": 36.66
+        },
+        {
+            "time": "15:26:04",
+            "selected_vm": "vm2",
+            "reward": -28.07,
+            "avg_predicted_load": 36.62
+        },
+        {
+            "time": "22:34:34",
+            "selected_vm": "vm2",
+            "reward": -28.07,
+            "avg_predicted_load": 31.76
+        },
+        {
+            "time": "22:34:52",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 33.2
+        },
+        {
+            "time": "22:35:09",
+            "selected_vm": "vm1",
+            "reward": -32.67,
+            "avg_predicted_load": 36.52
+        }
+    ]
+}
